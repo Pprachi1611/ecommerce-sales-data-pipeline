@@ -15,6 +15,7 @@ ETL_STAGES = [
     ("Generate Raw Data", "generate_sample_data.py"),
     ("Inspect Data Quality", "inspect_data.py"),
     ("Transform Data", "transform_data.py"),
+    ("Run Automated Tests", "run_tests.py"),
     ("Load Data into PostgreSQL", "load_data.py"),
 ]
 
