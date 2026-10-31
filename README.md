@@ -219,6 +219,22 @@ logs/etl_pipeline.log
 
 The logs directory is excluded from Git.
 
+## Running with Docker
+
+The ETL pipeline can also run inside Docker containers using Docker Compose.
+
+### Prerequisites
+- Docker Desktop
+- Docker Compose
+
+### Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Pprachi1611/ecommerce-sales-data-pipeline.git
+   cd ecommerce-sales-data-pipeline
+
 ## Current Project Scope
 
 This project currently demonstrates a local ETL workflow using synthetic data, Python, Pandas, and PostgreSQL. It is designed as a learning and portfolio project and does not use a live e-commerce API or production customer data.
@@ -238,5 +254,3 @@ This project currently demonstrates a local ETL workflow using synthetic data, P
 **Prachi Patil**
 
 Computer Engineering | Aspiring Data Engineer
-
-[GitHub Repository](https://github.com/Pprachi1611/ecommerce-sales-data-pipeline)
