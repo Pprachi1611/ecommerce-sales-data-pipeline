@@ -33,7 +33,7 @@ print("Raw datasets loaded successfully!")
 def clean_text(df):
     """Remove unwanted spaces from text columns."""
 
-    for column in df.select_dtypes(include="object").columns:
+    for column in df.select_dtypes(include=["object", "str"]).columns:
         df[column] = df[column].str.strip()
 
     return df
